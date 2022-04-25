@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+:root{
+    --cor0:#c5ebd6;
+    --cor1:#83E1AD;
+    --cor2:#3DDC84;
+    --cor3:#2FA866;
+    --cor4:#1A5C37;
+    --cor5:#063D1E;
+    --fonte0: Arial, Helvetica, Sans-serif;
+    --fonte1:'Bebas Neue', cursive;
+    --fonte0:'Android', Sans-serif;
+}
+
+body{
+    background-color: #3AD07D;
+    font-family: Arial, Helvetica, sans-serif sans-serif;
+}
+header{
+    
+    background-image: linear-gradient(to top, #1E6B40 50%, #3AD07D);
+    color: white;
+}
+.cabecalho{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+nav{
+    padding: 8px;
+    justify-content: left;
+    
+}
+nav a{
+    padding-inline-end: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 9px 5px;
+    border-radius: 3px;
+}
+nav a:hover{
+    background-color: #84E1AD;
+}
+.solink{
+    color: #0e3219;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.linkd::after {
+    content:"\1F517 ";
+
+}
+
+main{
+   
+    background-color: white;
+    padding: 15px;
+    margin:auto;
+    border-radius: 0px 0px 5px 5px;
+    max-width: 800px;
+    min-width: 400px;
+    
+}
+img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#imagemandroide{
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    max-height: 450px;
+    margin: auto;
+}
+#video{
+     background-color:#1857;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    
+    
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+.paragrafos{
+    text-indent: 30px ;
+    text-align: justify;
+}
+#tema{
+    color: #1E6B40;
+    font-size: 2em;
+}
+h2{
+    color: #1E6B40;
+    background-image: linear-gradient(to right,#3ad07e85 60%, #84e1ace4 20%, white );
+}
+#caixa{
+    background-color: #3AD07D;
+    border-radius: 5px;
+    
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+h3{
+    color: white;
+    background-color: #09922e;
+    border-radius: 5px 5px 0 0;
+    padding: 5px;
+}
+ul{
+    list-style: none;
+}
+#lista{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    width: 100%;
+    height: 100%;
+}
+ul li:before {
+    content: "\2714\0020";
+}
+footer{
+    background-color:#185734 ;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+span{
+    font-weight: 500;
+    color: white;
+}
+footer p {
+    padding: 0;
+}
+p{
+    padding: 15px;
+}

@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+h2{
+  color: white;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  height: 800px;
+  gap: 1px;
+  justify-content: center;
+  align-content: start;
+}
+.conteiner {
+  display: flex;
+  /* grid-template-columns: 40px; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* .box{
+  flex-direction: column;
+} */
